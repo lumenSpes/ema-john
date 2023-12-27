@@ -39,7 +39,7 @@ Product.propTypes = {
 		seller: PropTypes.string.isRequired,
 		stock: PropTypes.number.isRequired,
 	}).isRequired,
-	handelAddToCart: PropTypes.func.isRequired, // Add this line for handelAddToCart prop
+	handelAddToCart: PropTypes.func.isRequired,
 };
 
 export default Product;
